@@ -1,36 +1,23 @@
-*{
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
+
+.carousel-item {
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: ;
+    background-position: center;
 }
 
-.menu {
-	background-image: url('./../images/nav.png');
-	height: 40px;
-	border: 2px solid blue;
-	background-size: cover;
-}
-.carousel {
-	background-image: url('./../images/carousel.png');
-	background-size: cover;
-	border: 2px solid green;
-}
+.carousel-caption > h5 {
+    font-style: oblique ;
+    line-height: 1.5;
+    font-weight: 300;
+    margin: center;
+    margin-bottom: 200px !important;
+    }
 
-section {
-	margin-bottom: 50px;
-	height: 700px;
-	background-position: center;
-}
-
-.features {
-	background-image: url('./../images/features.png');
-	border: 2px solid black;
-}
-.projects {
-	background-image: url('./../images/projects.png');
-	border: 2px solid red;
-}
-.blog {
-	background-image: url('./../images/blog.png');
-	border: 2px solid yellow;
+.part {
+    display: grid;
+    grid-template-columns: (1,7fr);
+    grid-column-gap: 10px;
+    border: 5px solid black ;
 }
